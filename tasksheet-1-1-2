@@ -1,0 +1,25 @@
+class ArithmeticTask {
+
+    public static void main(String[] args) {
+        int result = 1;
+        
+        // Now it is Combine arithmetic and assignment
+        result += 2; // Equivalent to result = result + 2
+        System.out.println("Result after addition: " + result);
+
+        result -= 1; // Equivalent to result = result - 1
+        System.out.println("Result after subtraction: " + result);
+
+        result *= 2; // Equivalent to result = result * 2
+        System.out.println("Result after multiplication: " + result);
+
+        result /= 2; // Equivalent to result = result / 2
+        System.out.println("Result after division: " + result);
+
+        result += 8; // Equivalent to result = result + 8
+        System.out.println("Result after division: " + result);
+
+        result %= 7; // Equivalent to result = result % 7
+        System.out.println("Final result: " + result);
+    }
+}
